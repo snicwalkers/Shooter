@@ -136,5 +136,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d3016e6ec1276c4b8ee251faf98caf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fall: 2
+  fall: 4
   effect: {fileID: 100004, guid: 2857e183f4cd3df4e9096e5b578bd32f, type: 3}

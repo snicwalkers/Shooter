@@ -114,5 +114,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34cdae1684f5c7a48a0d12b65ff0965c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fall: 2
+  fall: 3
   effect: {fileID: 1156955145065736, guid: 9111742f4b509c149921306d21dcc194, type: 3}

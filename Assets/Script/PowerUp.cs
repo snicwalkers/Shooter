@@ -18,6 +18,7 @@ public class PowerUp : MonoBehaviour
     {
         if (other.transform.CompareTag("Player"))
         {
+            GameManager.increasedMultiplier(0.9f);
             Instantiate(effect, transform.position, transform.rotation);
             Destroy(gameObject);
         }

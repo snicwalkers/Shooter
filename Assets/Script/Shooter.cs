@@ -15,7 +15,7 @@ public class Shooter : MonoBehaviour
             if(shootTimer <= 0)
             {
                 Instantiate(bullet, transform.position, transform.rotation);
-                shootTimer = shootWait;
+                shootTimer = shootWait * GameManager.attackSpeedMultiplier;
             }
         }
     }
